@@ -1,0 +1,46 @@
+
+GET http://localhost:5064/products
+
+###
+
+DELETE http://localhost:5064/hello
+
+###
+
+GET http://localhost:5064/api/categories
+
+###
+
+POST  http://localhost:5064/api/categories
+Content-Type: application/json
+{
+    "name": "moon",
+    "description": "dynamik testing post x kabir"
+}
+
+###
+
+PUT  http://localhost:5064/api/categories
+
+###
+
+DELETE http://localhost:5064/api/categories
+
+###
+
+
+//new 
+
+GET http://localhost:5064/api/categorys
+
+###
+
+POST http://localhost:5064/api/categorys
+
+###
+
+DELETE http://localhost:5064/api/categorys
+
+
+
+
